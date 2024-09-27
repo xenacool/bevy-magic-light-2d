@@ -14,7 +14,7 @@ default = ["egui"]
 egui = ["dep:bevy-inspector-egui"]
 
 [dependencies]
-bevy = { version = "0.14.1", default-features = false, features = [
+bevy = { version = "0.14", default-features = false, features = [
   "bevy_render",
   "bevy_core_pipeline",
   "bevy_winit",
@@ -23,7 +23,7 @@ bevy = { version = "0.14.1", default-features = false, features = [
   "bevy_pbr",
   "multi_threaded",
 ] }
-bevy-inspector-egui = { version = "0.25.2", optional = true }
+bevy-inspector-egui = { version = "0.26", optional = true }
 log = "0.4.20"
 rand = "0.8.5"
 
