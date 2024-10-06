@@ -29,6 +29,8 @@ rand = "0.8.5"
 
 [dev-dependencies]
 bevy = "0.14.1"
+bevy_ecs_tiled = "0.3.10"
+bevy_ecs_tilemap = "0.14.0"
 
 [profile.release]
 codegen-units = 1

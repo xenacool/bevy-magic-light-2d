@@ -35,6 +35,9 @@ jobs:
       - name: Cargo Build Movement Example
         run: cargo build --example movement
 
+      - name: Cargo Build Tiled Krypta Example
+        run: cargo build --example tiled_krypta
+
       - name: Trunk Check
         uses: trunk-io/trunk-action@v1
         with:
